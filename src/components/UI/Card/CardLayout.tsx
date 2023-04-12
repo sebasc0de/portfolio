@@ -15,6 +15,7 @@ export const CardLayout = (work: Work) => {
         projectDesc={work.desc}
         projectTitle={work.displayName}
         projectLogo={work.img}
+        githubURL={work.gitHub}
       />
 
       <hr />

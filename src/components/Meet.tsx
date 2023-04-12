@@ -18,7 +18,7 @@ export const Meet = () => {
         </h2>
         <p className="text-gray-500 text-center">{t("meeting.desc")}</p>
       </div>
-      <a href="https://calendly.com/rocketup-designs/reunion-zoom">
+      <a href="https://calendly.com/nahuelsebastiandiaz/30min">
         <button className="bg-blue-600 text-white rounded-full p-2 px-5 mt-5 font-medium">
           {t("meeting.button")}
         </button>

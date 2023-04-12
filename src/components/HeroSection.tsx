@@ -71,7 +71,7 @@ export const HeroSection = () => {
               <Href
                 outline
                 text="Curriculum"
-                url="https://www.dropbox.com/s/zakihgy2ra85mtz/Curriculum%20Sebastian%20Diaz.pdf?dl=0"
+                url="https://www.dropbox.com/s/jyx1kg9f4mv7sr6/Curriculum%20profesional.pdf?dl=0"
               />
             </div>
           </div>
