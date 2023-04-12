@@ -7,7 +7,7 @@ import { Technologies } from "./Technologies";
 export const CardLayout = (work: Work) => {
   return (
     <div className="fade-in-top relative shadow-sm shadow-black/20 rounded-lg flex flex-col">
-      <Ping position="-right-1 top-0" size="w-3 h-3" />
+      <Ping position="-right-1 top-0" online={work.online} size="w-3 h-3" />
 
       {/* Header */}
       <Header
