@@ -13,7 +13,9 @@ export const Meet = () => {
         <span className="uppercase text-center block text-xs text-blue-600 font-bold">
           {t("meeting.small")}
         </span>
-        <h2 className="font-bold text-2xl text-center">{t("meeting.title")}</h2>
+        <h2 className="font-bold text-2xl mb-5 md:mb-2 text-center">
+          {t("meeting.title")}
+        </h2>
         <p className="text-gray-500 text-center">{t("meeting.desc")}</p>
       </div>
       <a href="https://calendly.com/rocketup-designs/reunion-zoom">

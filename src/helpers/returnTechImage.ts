@@ -1,5 +1,11 @@
 export const returnTechImage = (techonology: string): string => {
   switch (techonology) {
+    case "postgresql":
+      return "./logos/postgresql.png";
+
+    case "strapi":
+      return "./logos/strapi.png";
+
     case "supabase":
       return "./logos/supabase.png";
 

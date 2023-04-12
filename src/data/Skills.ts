@@ -28,6 +28,16 @@ export const mySkills = [
   },
   {
     id: uuid(),
+    title: "PostgreSQL",
+    img: "/logos/postgresql.png",
+  },
+  {
+    id: uuid(),
+    title: "Strapi",
+    img: "/logos/strapi.png",
+  },
+  {
+    id: uuid(),
     title: "Firebase",
     img: "/logos/firebase.png",
   },
