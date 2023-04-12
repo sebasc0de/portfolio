@@ -1,14 +1,14 @@
 {
   "heroSection": {
     "main-title": "Desarrollador web front end",
-    "aboutProjects": "Sobre mis proyectos",
-    "aboutProjectsText": "Mi nombre es Sebas y te puedo ayudar a desarrollar sitio web o aplicación. Realizo trabajos en todo LATAM y mi buena reputación habla por mí.",
-    "reactWebApps": "Desarrollo de aplicaciones web con React JS",
-    "wordpressWebs": "Diseño de sitios web con wordpress",
+    "aboutProjects": "Sobre mi",
+    "aboutProjectsText": "Mi nombre es Seba, tengo 3 anios de experiencia desarrollando con React. Actualmente estoy estudiando arquitectura de software y me apasionan las buenas practicas",
+    "frontEndStack": "Mi stack front end con Next JS",
+    "backendStack": "Mi stack para el back end",
     "contactButton": "Contactar"
   },
   "heroSectionDialog": {
-    "greeting": "Hola, soy Sebas👋🏻",
+    "greeting": "Hola, soy Sebas",
     "portfolio": "Mis trabajos"
   },
   "skillsSection": {

@@ -41,9 +41,9 @@ export const HeroSection = () => {
             <div className="bg-white rounded-md border border-gray-100 drop-shadow-sm p-1 px-3 flex lg:text-sm font-bold text-zinc-700 text-xs">
               <img src="/logos/react.png" className="w-5 mr-3 object-contain" />
               <div className="flex flex-col">
-                <p>{t("heroSection.reactWebApps")}</p>
+                <p>{t("heroSection.frontEndStack")}</p>
                 <small className="text-gray-400">
-                  Aplicaciones personalizadas a tu negocio.
+                  Redux, SASS y react-bootstrap.
                 </small>
               </div>
             </div>
@@ -54,9 +54,9 @@ export const HeroSection = () => {
                 className="w-5 mr-3 object-contain"
               />
               <div className="flex flex-col">
-                <p>{t("heroSection.wordpressWebs")}</p>
+                <p>{t("heroSection.backendStack")}</p>
                 <small className="text-gray-400">
-                  Sitios web clasicos y sencillos.
+                  Strapi, Supabase con PostgreSQL
                 </small>
               </div>
             </div>
