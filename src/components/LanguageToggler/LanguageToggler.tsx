@@ -1,6 +1,6 @@
+import { Button } from "../UI/Button";
 import { useState } from "react";
 import i18next from "i18next";
-import { Button } from "../UI/Button";
 
 export const LanguageToggler = () => {
   // Change language state
@@ -19,9 +19,10 @@ export const LanguageToggler = () => {
     }, 1300);
   };
 
+  if (loading) return <p>sda</p>;
   return (
     <>
-      <div className="fixed bottom-3 left-3 z-20">
+      <div className="fixed bottom-1 left-1 z-20">
         {inEnlgish ? (
           <Button action={() => toggleLanguageHandler("es")} text="English" />
         ) : (

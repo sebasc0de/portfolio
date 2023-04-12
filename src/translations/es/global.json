@@ -1,4 +1,7 @@
 {
+  "topbar": {
+    "message": "Este porfolio fue desarrollado en 2020, el codigo base no fue modificado desde entonces"
+  },
   "heroSection": {
     "main-title": "Desarrollador web front end",
     "aboutProjects": "Sobre mi",

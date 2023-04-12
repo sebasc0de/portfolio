@@ -1,4 +1,7 @@
 {
+  "topbar": {
+    "message": "This portfolio has been created in 2020, the source code has not been modified until then."
+  },
   "heroSection": {
     "main-title": "Full stack developer",
     "aboutProjects": "About me",
