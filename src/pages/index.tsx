@@ -3,12 +3,12 @@ import { HeroSection } from "../components/HeroSection";
 import { Meet } from "../components/Meet";
 import { Portfolio } from "../components/Portfolio";
 import { Container } from "../components/Modal/Container";
-import { Topbar } from "../components/Topbar";
+import { LanguageToggler } from "../components/LanguageToggler/LanguageToggler";
 
 function Homepage() {
   return (
     <>
-      <Topbar />
+      <LanguageToggler />
       <Container />
       <HeroSection />
       <Skills />

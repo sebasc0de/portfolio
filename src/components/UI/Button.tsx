@@ -13,7 +13,7 @@ export const Button = ({
 }: Props) => {
   // Conditional button styling
   const STYLES = {
-    normal: `bg-blue-600 ${
+    normal: `bg-blue-600 text-white ${
       shadow && "shadow-md shadow-blue-600"
     } rounded-full py-1 w-36`,
     outline:
