@@ -1,0 +1,66 @@
+{
+  "heroSection": {
+    "main-title": "Full stack developer",
+    "aboutProjects": "About my projects",
+    "aboutProjectsText": "My name is Sebastian Diaz, i'm 28 yearls old and live in Buenos Aires, Argentina. Development proyects in LATAM. My projects and budgets are totally personalized",
+    "reactWebApps": "Web application development with React JS",
+    "wordpressWebs": "Web design with Wordpress",
+    "contactButton": "Contact now"
+  },
+  "heroSectionDialog": {
+    "greeting": "Hello, i am Sebas👋🏻",
+    "portfolio": "Visit portfolio"
+  },
+  "skillsSection": {
+    "title": "Skills",
+    "React": "1 year of experience",
+    "Redux": "1 year of experience",
+    "Node JS": "3 months of experience",
+    "Mongo DB": "3 months of experience",
+    "Firebase": "1 year of experience",
+    "Tailwind": "2 years of experience",
+    "Bootstrap": "4 years of experience",
+    "Photoshop": "10+ years of experience",
+    "Wordpress": "4 years of experience",
+    "Elementor": "3 years of experience"
+  },
+  "portfolio": {
+    "title": "My works"
+  },
+  "portfolioCards": {
+    "stateTag": {
+      "online": "View more",
+      "inactive": "Development/Inactive"
+    }
+  },
+  "portfolioDesc": {
+    "malenProp": "Informative web with whatsapp button and properties info as extension",
+    "zarDelFitness": "Informative web + blog + shop online functions",
+    "visionAutentic": "eCommerce + informative web",
+    "LMViajes": "Informative web + lead form",
+    "SebasBlog": "Blog + cart function and changelog with notices",
+    "JALF-dashboard": "Dashboard with most relevant functions for my own business. Stock control, orders management, tools, shippings, etc",
+    "1000tickets": "Tickets online shop",
+    "barboza": "eCommerce with informative sections",
+    "regodeo": "Informative web",
+    "casagabra": "eCommerce with login/register form and informative sections",
+    "merPoledance": "Blog + online courses function",
+    "federagro": "Informative web + lead form"
+  },
+  "meeting": {
+    "small": "have questions?",
+    "title": "Schedule a meeting with me!",
+    "desc": "Ask me your questions on Google Meet / Zoom",
+    "button": "Schedule now"
+  },
+  "loaders": {
+    "0": "I'm learning new skills every day",
+    "1": "I hate the inpuntuality",
+    "2": "I love animals",
+    "3": "Food lover",
+    "4": "Friend's lover",
+    "5": "When I want something, I don't stop until I get it.",
+    "6": "I'm cool with everyone",
+    "7": "I have a hard time pronouncing English"
+  }
+}

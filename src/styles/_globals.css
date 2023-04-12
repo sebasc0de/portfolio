@@ -1,0 +1,29 @@
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c7c7c7;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fbfbfb;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+select {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: gray;
+  font-size: 14px;
+  padding: 0.3rem 1rem;
+  border-radius: 4px;
+  -webkit-appearance: none;
+}

@@ -1,0 +1,183 @@
+@import url("../styles/_variables.css");
+@import url("../styles/_globals.css");
+@import url("../styles/_animations.css");
+@import url("../styles/_colors.css");
+@import url("../styles/_tabs.css");
+
+/* Hero section animations */
+
+.float {
+  -webkit-animation: float 3s ease-in-out infinite both;
+  animation: float 3s ease-in-out infinite both;
+}
+
+/* Animation: Float */
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+/* Animation entrances - Fade in */
+
+.fade-in-top {
+  -webkit-animation: fade-in-top 1s ease-in-out both;
+  animation: fade-in-top 1s ease-in-out both;
+}
+
+@-webkit-keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*Entrances*/
+
+.fade-in-left {
+  -webkit-animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 1s
+    both;
+  animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+}
+
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*Right*/
+.fade-in-right {
+  -webkit-animation: fade-in-right 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 1.2s
+    both;
+  animation: fade-in-right 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 1.2s both;
+}
+
+@-webkit-keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*Fade in top*/
+.fade-in-top-delay {
+  -webkit-animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 1.3s
+    both;
+  animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 1.3s both;
+}
+
+@-webkit-keyframes fade-in-top-delay {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-top-delay {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*Animated gradient*/
+
+#gradient {
+  background: linear-gradient(
+    -45deg,
+    #ff9671,
+    #b56d97,
+    #e57b89,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  background-size: 400% 400%;
+  animation: gradient 7s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

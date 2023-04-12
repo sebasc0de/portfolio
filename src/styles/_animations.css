@@ -1,0 +1,12 @@
+.alternateDown {
+  animation: alternateDown 0.5s ease-in-out forwards;
+}
+
+@keyframes alternateDown {
+  0% {
+    height: 50%;
+  }
+  100% {
+    height: 17rem;
+  }
+}
