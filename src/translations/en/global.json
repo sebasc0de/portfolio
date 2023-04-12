@@ -1,10 +1,10 @@
 {
   "heroSection": {
     "main-title": "Full stack developer",
-    "aboutProjects": "About my projects",
-    "aboutProjectsText": "My name is Sebastian Diaz, i'm 28 yearls old and live in Buenos Aires, Argentina. Development proyects in LATAM. My projects and budgets are totally personalized",
-    "reactWebApps": "Web application development with React JS",
-    "wordpressWebs": "Web design with Wordpress",
+    "aboutProjects": "About me",
+    "aboutProjectsText": "My name is Sebastian, i have 3 years of experience development with React. At the moment i am studying software arquitecture.",
+    "frontEndStack": "My front end stack with Next JS",
+    "backendStack": "My stack for the backend",
     "contactButton": "Contact now"
   },
   "heroSectionDialog": {
@@ -13,16 +13,18 @@
   },
   "skillsSection": {
     "title": "Skills",
-    "React": "1 year of experience",
-    "Redux": "1 year of experience",
-    "Node JS": "3 months of experience",
-    "Mongo DB": "3 months of experience",
-    "Firebase": "1 year of experience",
-    "Tailwind": "2 years of experience",
-    "Bootstrap": "4 years of experience",
+    "Node JS": "Nest JS as framework",
+    "Strapi": "Little and middle apps",
+    "PostgreSQL": "Little and middle apps",
+    "Mongo DB": "Little apps",
+    "React": "Next JS",
+    "Redux": "Middle apps",
+    "Typescript": "In all projects",
+    "Firebase": "If request this",
+    "Tailwind": "Small apps",
+    "Bootstrap": "I mix with SASS",
     "Photoshop": "10+ years of experience",
-    "Wordpress": "4 years of experience",
-    "Elementor": "3 years of experience"
+    "Wordpress": "I dont work now"
   },
   "portfolio": {
     "title": "My works"
