@@ -1,8 +1,8 @@
 import "./styles.css";
-import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
 import global_en from "../translations/en/global.json";
 import global_es from "../translations/es/global.json";
+import i18next from "i18next";
 import type { AppProps } from "next/app";
 
 i18next.init({
