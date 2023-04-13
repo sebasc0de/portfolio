@@ -12,14 +12,11 @@ export const LanguageToggler = () => {
   // Toggle language handler
   const toggleLanguageHandler = (lng: string) => {
     setLoading(true);
-    setTimeout(() => {
-      setInEnglish(!inEnlgish);
-      i18next.changeLanguage(lng);
-      setLoading(false);
-    }, 1300);
+    setInEnglish(!inEnlgish);
+    i18next.changeLanguage(lng);
+    setLoading(false);
   };
 
-  if (loading) return <p>sda</p>;
   return (
     <>
       <div className="fixed bottom-1 left-1 z-20">
