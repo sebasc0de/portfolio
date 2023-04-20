@@ -1,20 +1,26 @@
+import {
+  github,
+  instagram,
+  linkedin,
+  youtube,
+} from "../../data/sebasc0de/RRSSS.json";
 export const RRSS = () => {
   return (
     <div className="absolute flex gap-1.5 top-2 right-2">
       <a
-        href="https://www.linkedin.com/in/nahuelsebastiandiaz/"
+        href={linkedin}
         className="w-6 h-6 p-1 bg-white rounded-md drop-shadow-lg"
       >
         <img src="/logos/linkedin.png" />
       </a>
       <a
-        href="https://github.com/sebasc0de"
+        href={github}
         className="w-6 h-6 p-1 bg-white rounded-md drop-shadow-lg"
       >
         <img src="/logos/github.png" />
       </a>
       <a
-        href="https://www.instagram.com/sebas.code/"
+        href={instagram}
         className="w-6 h-6 p-1 bg-white rounded-md drop-shadow-lg"
       >
         <img src="/logos/instagram.png" />
@@ -26,7 +32,7 @@ export const RRSS = () => {
     <img src="/icons/twich.png" />
   </a> */}
       <a
-        href="https://www.youtube.com/channel/UCgQr1eWf00URIYPs3f8sVyA"
+        href={youtube}
         className="w-6 h-6 p-0.5 bg-white rounded-md drop-shadow-lg"
       >
         <img src="/logos/youtube.png" />
